@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
     int myScore = 100;
-    int& mikesScore = myScore;
+    int& mikesScore = myScore; // this is a reference to myScore
 
     cout << "myScore is: " << myScore << "\n";
     cout << "mikesScore is: " << mikesScore << "\n\n";
